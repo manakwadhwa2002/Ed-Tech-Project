@@ -1,0 +1,976 @@
+/* Predefined HTML Must be at the Top of CSS */
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0px;
+    font-family: 'Montserrat';
+}
+
+.clearfix {
+    clear: both;
+}
+
+
+/* ######## Common Header (Products and Blogs) ######## */
+
+header {
+    padding: 5px 0px;
+    background-color: #04BBB1;
+    position: sticky;
+    top: 0;
+    z-index: 9999;
+}
+
+header label {
+    display: none;
+}
+
+header label img {
+    max-width: 30px;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+header img {
+    margin: 3px;
+    max-width: 55px;
+    margin-left: 60px;
+}
+
+#mobile-menu-bar {
+    float: right;
+    font-size: 25px;
+    line-height: 20px;
+    margin: 15px;
+    display: none;
+}
+
+.header-menu-container {
+    float: right;
+    margin: 15px;
+}
+
+.dropdown-menu-item {
+    float: left;
+    margin-left: 20px;
+    border-radius: 5px;
+}
+
+.dropdown-menu-item button {
+    padding: 4px 22px;
+    font-weight: bold;
+    font-family: 'Montserrat';
+    font-size: 16px;
+    background-color: transparent;
+    border: none;
+    color: white;
+    outline: none;
+    font-weight: 100;
+}
+
+.dropdown-menu-item button::after {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f107";
+    margin-left: 5px;
+}
+
+.dropdown-menu-content {
+    clear: both;
+    float: none;
+    position: absolute;
+    left: 0px;
+    background-color: rgb(243, 243, 243);
+    width: 100%;
+    display: none;
+    padding: 10px 0px 20px 0px;
+    box-shadow: 0 12px 10px -10px rgba(0, 0, 0, 0.3);
+}
+
+.dropdown-menu-item:hover .dropdown-menu-content {
+    display: block;
+}
+
+.dropdown-career-content-left {
+    float: left;
+    margin-left: 3%;
+    width: 60%;
+}
+
+.dropdown-career-content-left h4,
+.dropdown-career-content-right h4 {
+    color: #404042;
+    font-size: 16px;
+    line-height: 0px;
+}
+
+.dropdown-career-content-left p,
+.dropdown-career-content-right p {
+    font-size: 14px;
+    color: #888888;
+}
+
+.dropdown-menu-content-left-inner-div {
+    width: 30%;
+    float: left;
+    margin-left: 3%;
+    text-align: left;
+}
+
+.dropdown-menu-content-left-inner-div a {
+    font-size: 12px;
+    color: black;
+    text-decoration: none;
+    display: block;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+.dropdown-menu-content-left-inner-div a:hover {
+    color: #1d5c8d;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.dropdown-career-content-right {
+    width: 35%;
+    float: left;
+    margin-left: 2%;
+}
+
+.dropdown-career-content-right a {
+    text-align: center;
+    font-size: 14px;
+    text-decoration: none;
+    color: #1d5c8d;
+}
+
+.blog-card {
+    width: 46%;
+    background-color: #f9f9f9;
+    padding-bottom: 15px;
+    float: left;
+    margin-left: 10px;
+    box-shadow: 0 12px 10px -10px rgba(0, 0, 0, 0.3);
+}
+
+.blog-card img {
+    max-width: 100%;
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+.blog-card:hover {
+    box-shadow: 0 12px 10px -10px rgba(0, 0, 0, 0.7);
+    -webkit-transform: translate(-5px, -10px);
+}
+
+.view-all-link-dropdown-menu a {
+    color: #1d5c8d;
+    font-size: 14px;
+    float: right;
+    text-decoration: none;
+    margin: 20px 20px 0px 0px;
+}
+
+.view-all-link-dropdown-menu a::after {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f105";
+    margin-left: 5px;
+}
+
+.view-all-link-dropdown-menu a:hover {
+    text-decoration: underline;
+}
+
+
+/* Main Body Of Products Page */
+
+.heading-all-services-page {
+    text-align: center;
+    color: #404042;
+    font-weight: 100;
+}
+
+.services-product-box {
+    width: 25%;
+    float: left;
+    margin: 2%;
+    margin-left: 4%;
+    text-align: center;
+    color: #404042;
+    background-color: #f1f1f1;
+    box-shadow: 0 12px 10px -10px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+}
+
+.services-product-box img {
+    max-width: 100%;
+}
+
+.services-product-box:hover {
+    box-shadow: 0 12px 10px -10px rgba(0, 0, 0, 0.7);
+    -webkit-transform: translate(-5px, -15px);
+}
+
+
+/* Header Image CV Writing*/
+
+.header-svg-container {
+    width: 100%;
+    max-width: 100%;
+    height: 80vh;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    position: relative;
+}
+
+.header-svg-container h1 {
+    width: 45%;
+    text-align: center;
+    position: absolute;
+    margin: 7% 0% 0% 5%;
+    font-size: 34px;
+    color: #404042;
+}
+
+.header-svg-container p {
+    width: 50%;
+    text-align: center;
+    position: absolute;
+    margin: 15% 0% 0% 3%;
+    font-size: 18px;
+    color: #404042;
+}
+
+.header-svg-cv-writing-form {
+    position: absolute;
+    margin: 19% 0% 0% 10%;
+    width: 70%;
+}
+
+.header-svg-cv-writing-form input {
+    padding: 10px 15px;
+    font-size: 14px;
+    float: left;
+    width: 30%;
+}
+
+.header-svg-cv-writing-form button {
+    padding: 11px 15px;
+    font-size: 14px;
+    background-color: #40ada8;
+    border: none;
+    color: white;
+    font-family: 'Montserrat';
+    outline: none;
+}
+
+
+/* ---- Header  SVG Different for each product (so added different class in header in each product)---- */
+
+.svg-admission-consulting {
+    background: url('../Photos/Products\ Header\ Infographics/Admission consulting_2.svg');
+}
+
+.svg-cv-writing {
+    background: url('../Photos/Products\ Header\ Infographics/CV Writer.svg');
+}
+
+.svg-essay-sop-writing {
+    background: url('../Photos/Products\ Header\ Infographics/SOP.svg');
+}
+
+.svg-visa {
+    background: url('../Photos/Products\ Header\ Infographics/VISA.svg');
+}
+
+.svg-scholarship {
+    background: url('../Photos/Products\ Header\ Infographics/SCHOLARSHIPS.svg');
+    background-size: 100%;
+}
+
+.svg-career-guidance {
+    background: url('../Photos/Products\ Header\ Infographics/Career Guidance.svg');
+}
+
+.svg-virtual-internship {
+    background: url('../Photos/Products\ Header\ Infographics/Virtual internship_1.svg');
+}
+
+.svg-mentoring-and-profile-building {
+    background: url('../Photos/Products\ Header\ Infographics/MENTORING & PROFILE BUILDING_1.svg');
+}
+
+
+/* ---- Repositioning the H1, p and form for Visa and Virtual internship ---- */
+
+.svg-virtual-internship h1,
+.svg-visa h1,
+.svg-essay-sop-writing h1,
+.svg-mentoring-and-profile-building h1 {
+    width: 45%;
+    text-align: center;
+    position: absolute;
+    margin: 0px;
+    top: 7%;
+    right: 5%;
+    font-size: 34px;
+    color: #404042;
+}
+
+.svg-virtual-internship p,
+.svg-visa p,
+.svg-essay-sop-writing p,
+.svg-mentoring-and-profile-building p {
+    width: 50%;
+    text-align: center;
+    position: absolute;
+    margin: 0px;
+    right: 2%;
+    top: 27%;
+    font-size: 18px;
+    color: #404042;
+}
+
+.svg-virtual-internship-form, .svg-visa-form {
+    width: 40%;
+    text-align: center;
+    position: absolute;
+    margin: 0px;
+    right: 2%;
+    top: 35%;
+}
+
+.svg-virtual-internship-form input, .svg-visa-form input{
+    padding: 10px 15px;
+    font-size: 14px;
+    float: left;
+    width: 50%;
+}
+
+.svg-virtual-internship-form button, .svg-visa-form button{
+    float: left;
+    padding: 11px 15px;
+    font-size: 14px;
+    background-color: #40ada8;
+    border: none;
+    color: white;
+    font-family: 'Montserrat';
+    outline: none;
+}
+
+/* Visa Text Centering */
+
+.svg-visa h1{
+    top: 10%;
+    right: 28%;
+}
+
+.svg-visa p{
+    top: 22%;
+    right: 25%;
+}
+
+.svg-visa-form{
+    top: 32%;
+    right: 27%;
+}
+
+
+/* Second Nav Menu only for Web View */
+
+.product-common-menu {
+    width: 100%;
+    text-align: center;
+    height: 50px;
+    background-color: #f6f6f6;
+    box-shadow: 0 12px 10px -10px rgba(0, 0, 0, 0.2);
+    position: sticky;
+    top: 68px;
+    z-index: 99;
+}
+
+.product-common-menu-inner-nav {
+    width: 40%;
+    margin: auto;
+}
+
+.product-common-menu-inner-nav button {
+    font-size: 14px;
+    padding: 15px;
+    float: left;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    font-family: 'Montserrat';
+}
+
+.active-btn {
+    background-color: rgba(4, 187, 177, 0.5);
+    border-bottom: 2px solid teal;
+}
+
+
+/* Product Common Section */
+
+.product-common-section {
+    margin-top: 40px;
+}
+
+.product-common-section h3 {
+    font-size: 24px;
+    text-align: center;
+    color: #484848;
+    font-weight: 100;
+}
+
+.how-we-help-process-image {
+    position: relative;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.how-we-help-process-feature-points {
+    position: absolute;
+    width: 25%;
+    text-align: left;
+}
+
+.how-we-help-process-feature-points img {
+    height: 100px;
+    width: 100px;
+    max-width: 100px;
+    max-height: 100px;
+}
+
+.how-we-help-process-feature-points h2 {
+    font-size: 16px;
+    color: #404042;
+    text-transform: uppercase;
+}
+
+.how-we-help-process-feature-points p {
+    font-size: 14px;
+}
+
+.hwh-point-one {
+    bottom: 25%;
+    left: 2%;
+}
+
+.hwh-point-two {
+    bottom: 5%;
+    right: 2%;
+}
+
+.hwh-point-three {
+    top: 0%;
+    right: 2%;
+}
+
+.success-story-div-product-common-section {
+    width: 100%;
+    height: 20vh;
+    background-color: #02afa6;
+    padding: 30px 0px;
+}
+
+.success-story-div-product-common-section-inner-left {
+    float: left;
+    width: 50%;
+    color: white;
+    margin-left: 15%;
+}
+
+.success-story-div-product-common-section-inner-left label {
+    text-align: right;
+    font-size: 14px;
+    text-decoration: none;
+    color: white;
+}
+
+.success-story-div-product-common-section-inner-left label::before {
+    content: '-';
+    margin-right: 5px;
+}
+
+.success-story-div-product-common-section-inner-left a:hover {
+    border: 2px solid white;
+    text-decoration: underline;
+}
+
+.success-story-div-product-common-section-inner-left i {
+    margin-left: 5px;
+}
+
+.success-story-div-product-common-section-inner-right {
+    float: left;
+    margin-left: 3%;
+}
+
+.success-story-div-product-common-section-inner-right img {
+    max-width: 125px;
+}
+
+
+/* Programs Common Products Page */
+
+.programs-container-inner {
+    width: 100%;
+    margin: auto;
+}
+
+.programs-container-inner-product-tile {
+    width: 21%;
+    float: left;
+    margin: 0% 1.2%;
+    padding: 15px 10px;
+    text-align: center;
+    background-color: #f5f5f5;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+}
+
+.programs-container-inner-product-tile:hover {
+    -webkit-transform: translate(-5px, -10px);
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.5);
+}
+
+.programs-container-inner-product-tile img {
+    height: 80px;
+    width: 80px;
+    max-width: 100px;
+    max-height: 100px;
+}
+
+.programs-container-inner-product-tile h4 {
+    font-size: 24px;
+    margin: 5px 0px;
+}
+
+.programs-container-inner-product-tile span {
+    font-size: 13px;
+    font-weight: bold;
+    color: #888888;
+}
+
+.programs-container-inner-product-tile hr {
+    font-size: 14px;
+    width: 30%;
+    color: #484848;
+}
+
+#product-tile-inner-price,
+#product-tile-inner-price-admission-consulting-tile,
+#product-tile-inner-price-essay-sop-tile,
+#product-tile-inner-price-mentoring-and-profile-building-tile {
+    font-size: 26px;
+}
+
+#product-tile-inner-price::before,
+#product-tile-inner-price-admission-consulting-tile::before,
+#product-tile-inner-price-essay-sop-tile::before,
+#product-tile-inner-price-mentoring-and-profile-building-tile::before {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f156";
+    margin-right: 5px;
+}
+
+.consulting-hours-product-tile {
+    background-color: #626262;
+    color: #fff;
+    font-size: 12px;
+    padding: 2px 4px;
+}
+
+.programs-container-inner-product-tile i {
+    font-size: 18px;
+    margin-right: 5px;
+}
+
+.programs-container-inner-product-tile li {
+    font-size: 14px;
+    list-style-type: none;
+    text-align: left;
+    font-weight: bold;
+    margin-bottom: 16px;
+    color: #484848;
+}
+
+.programs-container-inner-product-tile li li {
+    font-weight: normal;
+    font-size: 12px;
+    margin: 0px;
+    text-align: left;
+}
+
+.tile-learn-more-link-sub-item {
+    color: #04bbb1;
+    text-decoration: none;
+    outline: none;
+    font-weight: bold;
+}
+
+.tile-learn-more-link-sub-item::after {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f105";
+    margin-left: 5px;
+}
+
+.free-product-common-form {
+    width: 97%;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.free-product-common-form input {
+    width: 95%;
+    font-family: 'Montserrat';
+    padding: 8px 10px;
+    outline: none;
+    border: none;
+    border-radius: 4px;
+    background-color: rgb(233, 233, 233);
+    margin-bottom: 10px;
+}
+
+.free-product-common-form button {
+    background-color: #04BBB1;
+    color: white;
+    font-size: 14px;
+    border-radius: 4px;
+    border: none;
+    outline: none;
+    padding: 8px 10px;
+    width: 102%;
+    font-family: 'Montserrat';
+}
+
+
+/* -------- Programs Container Inner Extra Class for CV Writing Product -------- */
+
+.admission-consulting-extra-class {
+    width: 100%;
+    margin: auto;
+}
+
+
+/* -------- Radio Button Class for product tiles -------- */
+
+.tile-input-radio {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.tile-input-radio label {
+    font-size: 12px;
+    font-weight: normal;
+}
+
+.tile-input-radio [type=radio] {
+    outline: none;
+}
+
+
+/* Why Mentord Common Product Page */
+
+.why-mentord-tile-container-product-page {
+    height: 55vh;
+    background-color: #02afa6;
+}
+
+.why-mentord-tile-product-page {
+    width: 24%;
+    float: left;
+    margin: 2% 4%;
+    text-align: center;
+    background-color: white;
+    padding: 20px 5px;
+    border-radius: 5px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.7);
+}
+
+.why-mentord-tile-product-page h2 {
+    font-size: 18px;
+    color: #003862;
+}
+
+.why-mentord-tile-product-page img {
+    height: 125px;
+    width: 125px;
+    max-width: 125px;
+    max-height: 125px;
+}
+
+.why-mentord-tile-product-page p {
+    text-align: left;
+    font-size: 14px;
+    width: 90%;
+    margin: auto;
+}
+
+
+/* FAQ Container Common Product Page  */
+
+.product-common-faq-container {
+    width: 95%;
+    margin: auto;
+}
+
+.product-common-faq-inner {
+    float: left;
+    width: 46%;
+    margin-left: 2.5%;
+}
+
+.product-common-faq-inner h5 {
+    font-size: 15px;
+    margin: 0px;
+}
+
+.product-common-faq-inner p {
+    font-size: 14px;
+    margin: 10px 0px;
+    text-align: justify;
+}
+
+
+/* Contact Form Common Product Page */
+
+.contact-us-product-common-section {
+    padding: 30px 20px 0px 20px;
+    width: 65%;
+    margin: auto;
+    -webkit-box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.7);
+}
+
+.contact-us-product-common-section-left {
+    width: 55%;
+    padding: 0px 20px;
+    float: left;
+}
+
+.contact-us-product-common-section-left h4 {
+    font-size: 24px;
+    margin: 0px;
+    color: #404042;
+}
+
+.contact-us-product-common-section-left p {
+    font-size: 15px;
+    color: #404042;
+}
+
+.contact-us-product-common-section-left-form input {
+    padding: 8px 12px;
+    font-size: 13px;
+    width: 100%;
+    border: 1px solid rgb(194, 194, 194);
+    margin-bottom: 20px;
+    font-family: 'Montserrat';
+    outline: none;
+}
+
+.contact-us-product-common-section-left-form button {
+    padding: 8px 20px;
+    width: 30%;
+    margin: auto;
+    font-size: 14px;
+    font-family: 'Montserrat';
+    background-color: #40ada8;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+}
+
+.contact-us-product-common-section-right img {
+    max-width: 35%;
+    margin-left: 4%;
+}
+
+
+/* -------- Footer -------- */
+
+footer{
+    width: 100%;
+    background-color: #04BBB1;
+    margin-top: 5vh;
+    padding-top: 5vh;
+    position: absolute;
+    color: white;
+}
+
+.footer-links-section{
+    width: 60%;
+    margin: 20px;
+    float: left;
+}
+
+.footer-links-section h4, .footer-form-section h4{
+    margin: 0px;
+    font-size: 3.65vh;
+    font-weight: 100;
+    text-align: left;
+}
+
+.footer-links-section p{
+    font-size: 2.43vh;
+    margin-left: 3vh;
+}
+
+.footer-links-section a{
+    font-size: 3.5vh;
+    color: #133a5c;
+    text-decoration: none;
+    margin-left: 3vh;
+}
+
+.footer-form-section{
+    width: 25%;
+    margin: 20px;
+    float: left;
+    text-align: center;
+}
+
+.footer-form-section input, .footer-form-section textarea{
+    font-size: 2.43vh;
+    width: 90%;
+    margin-top: 1vh;
+    padding: 1.06vh 0vh;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #133a5c;
+    font-family: inherit;
+    outline: none;
+}
+
+.footer-form-section input::placeholder, .footer-form-section textarea::placeholder{
+    color: white;
+}
+
+.footer-form-section button{
+    font-size: 2.43vh;
+    width: 90%;
+    margin-top: 2vh;
+    padding: 1.06vh 0vh;
+    background-color: #133a5c;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-family: inherit;
+    outline: none;
+}
+
+.copyright-text{
+    font-size: 2vh;
+    margin: 1vh 0vh;
+    text-align: center;
+}
+
+/* -------- All Carrers Page -------- */
+
+.career-tile {
+    color: black;
+    width: 28%;
+    text-align: center;
+    margin: 30px 0px 30px 60px;
+    background-color: rgba(231, 231, 231, 0.5);
+    float: left;
+}
+
+.career-tile img {
+    width: 100%;
+    max-width: 100%;
+    max-height: 200px;
+}
+
+.career-tile p {
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin: 25px 0px;
+}
+
+
+/* Post Defined CSS must be at the bottom of CSS */
+
+.navy-background-hover:hover {
+    background-color: #003862;
+}
+
+.canary-background-hover:hover {
+    background-color: #9e9d77;
+    color: #003862;
+}
+
+.blue-yonder-background-hover:hover {
+    background-color: #587792;
+}
+
+.lavender-background-hover:hover {
+    background-color: #FF6700;
+}
+
+
+/* Product Lock Color */
+
+.color-white {
+    color: white;
+    font-size: 22px;
+    margin-top: 15px;
+}
+
+.unlock-green {
+    color: rgb(0, 255, 0);
+}
+
+.lock-gray {
+    color: gray;
+}
+
+.text-align-right {
+    float: right;
+}
+
+.margin-bottom-20 {
+    margin-top: 43px;
+}
+
+.margin-bottom-30 {
+    margin-top: 25px;
+    margin-bottom: 15px;
+}
+
+.margin-bottom-70 {
+    margin-bottom: 155px;
+}
+
+.padding-bottom-20 {
+    padding-bottom: 35px;
+}
+
+.margin-left25-per {
+    margin-left: 25%;
+}
+
+.margin-left50-per {
+    margin-left: 39%;
+}
+
+.margin-bottom-119 {
+    margin-bottom: 119px;
+}
+
+.margin-bottom-101 {
+    margin-bottom: 101px;
+}
+
+.margin-bottom-108 {
+    margin-bottom: 108px;
+}

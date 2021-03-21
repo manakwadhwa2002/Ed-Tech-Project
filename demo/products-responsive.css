@@ -1,0 +1,418 @@
+@media only screen and (max-width: 876px) {
+    header label {
+        display: block;
+        float: right;
+    }
+    #mobile-menu-bar {
+        display: block;
+    }
+    .header-menu-container {
+        float: none;
+        clear: both;
+        display: none;
+        margin: 0px;
+        padding: 0px;
+        position: absolute;
+        width: 100%;
+        text-align: center;
+    }
+    .dropdown-menu-item {
+        margin: 0px;
+        width: 100%;
+        background-color: #04BBB1;
+        color: white;
+    }
+    .dropdown-menu-item button {
+        padding: 10px 0px;
+        font-size: 16px;
+        float: none;
+        display: block;
+        width: 100%;
+        background-color: transparent;
+        border-radius: 0px;
+    }
+    .dropdown-menu-content {
+        position: relative;
+        margin: 0px;
+        box-shadow: none;
+    }
+    .dropdown-career-content-left {
+        float: none;
+        margin-left: 0%;
+        width: 97%;
+        margin: auto;
+    }
+    .dropdown-career-content-right {
+        display: none;
+    }
+    .view-all-link-dropdown-menu a {
+        font-size: 12px;
+    }
+
+    /* -------- LSFP Forms -------- */
+    .close-lsfp-form{
+        right: 2vh;
+        font-size: 25px;
+    }
+
+    .lsfp-form-outer{
+        margin: 6% auto 2% auto;
+        width: 95%;
+        overflow: hidden;
+    }
+
+    .lsfp-form-inner-left{
+        width: 100%;
+        float: none;
+        padding: 2vh 0vh;
+    }
+
+    .lsfp-form-inner-left img{
+        max-width: 49%;
+        margin-left: 2vw;
+    }
+
+    #mentord-logo-on-form{
+        max-width: 75px;
+        margin: 2vh 0vh; 
+    }
+
+    .lsfp-form-inner-right{
+        width: 100%;
+        float: none;
+        padding: 5vh 0vh;
+    }
+
+    .lsfp-form-inner-right form input{
+        width: 80%;
+    }
+
+    .lsfp-form-inner-right form button{
+        width: 85%;
+    }
+
+    .lsfp-form-inner-right span a{
+        float: none;
+    }
+    .lsfp-form-inner-right span a::before{
+        content: "\a";
+        white-space: pre;
+    }
+    .lsfp-form-inner-right span a::after{
+        content: "\a\a";
+        white-space: pre;
+    }
+
+    .lsfp-form-inner-right a{
+        float: none;
+    }
+
+    /* Main Body Of Products Page */
+    .heading-all-services-page {
+        font-size: 14px;
+    }
+    .services-product-box {
+        width: 97%;
+        margin: 2%;
+        margin-right: 0px;
+        float: left;
+        text-align: center;
+        color: #404042;
+        background-color: #f1f1f1;
+        box-shadow: 0 12px 10px -10px rgba(0, 0, 0, 0.3);
+    }
+    .services-product-box img {
+        max-width: 100%;
+    }
+    .services-product-box:hover {
+        box-shadow: 0 12px 10px -10px rgba(0, 0, 0, 0.7);
+        -webkit-transform: translate(-5px, -15px);
+    }
+    /* Second Nav Menu only for Web View */
+    .product-common-menu {
+        display: none;
+    }
+    /* Header Image CV Writing*/
+    .header-svg-container {
+        height: 40vh;
+        background-repeat: no-repeat;
+        margin-top: 0%;
+    }
+    .header-svg-container h1 {
+        width: 97%;
+        position: absolute;
+        margin: 40% 0% 0% 2%;
+        font-size: 18px;
+    }
+    .header-svg-container p {
+        width: 97%;
+        margin: 55% 0% 0% 2%;
+        position: absolute;
+        font-size: 14px;
+    }
+    .svg-mentoring-and-profile-building p,
+    .svg-essay-sop-writing p,
+    .svg-visa p {
+        width: 97%;
+        margin: 39% 0% 0% 2%;
+        position: absolute;
+        font-size: 14px;
+    }
+    .header-svg-cv-writing-form {
+        position: absolute;
+        margin: 70% 0% 0% 10%;
+    }
+    .header-svg-cv-writing-form input {
+        padding: 4px 6px;
+        font-size: 12px;
+        width: 50%;
+    }
+    .header-svg-cv-writing-form button {
+        padding: 6px 6px;
+        font-size: 12px;
+    }
+    /* ---- Repositioning the H1, p and form for Visa and Virtual internship ---- */
+    .svg-virtual-internship h1 {
+        width: 97%;
+        position: absolute;
+        margin: 38% 0% 0% 3%;
+        font-size: 18px;
+    }
+    .svg-virtual-internship p {
+        width: 97%;
+        margin: 38% 0% 0% 2%;
+        position: absolute;
+        font-size: 14px;
+    }
+    .svg-virtual-internship-form {
+        position: absolute;
+        margin: 45% 0% 0% 0%;
+        width: 100%;
+    }
+    .svg-virtual-internship-form input {
+        float: none;
+        padding: 4px 6px;
+        font-size: 12px;
+        width: 50%;
+    }
+    .svg-virtual-internship-form button {
+        float: none;
+        padding: 6px 6px;
+        font-size: 12px;
+    }
+    /* Product Common Section */
+    .product-common-section {
+        margin-top: 0px;
+    }
+    .product-common-section h3 {
+        font-size: 16px;
+        font-weight: bold;
+    }
+    .how-we-help-process-image {
+        margin: 0px;
+    }
+    .how-we-help-process-image img {
+        max-width: 100%;
+    }
+    .how-we-help-process-feature-points {
+        position: relative;
+        width: 90%;
+        margin: 0px;
+        margin: auto;
+        box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+        text-align: center;
+        padding: 10px 5px;
+        float: none;
+        clear: both;
+    }
+    .how-we-help-process-feature-points h2 {
+        font-size: 14px;
+    }
+    .how-we-help-process-feature-points p {
+        font-size: 12px;
+    }
+    .success-story-div-product-common-section {
+        margin-top: 20px;
+        height: 25vh;
+        background-color: #02afa6;
+        padding: 10px 0px;
+    }
+    .success-story-div-product-common-section-inner-left {
+        float: left;
+        width: 50%;
+        margin: 0px;
+        margin-left: 3%;
+    }
+    .success-story-div-product-common-section-inner-left span {
+        font-size: 10px;
+    }
+    .success-story-div-product-common-section-inner-left p {
+        margin: 3px 0px;
+        font-size: 12px;
+    }
+    .success-story-div-product-common-section-inner-left a {
+        font-size: 8px;
+        padding: 2px 4px;
+    }
+    /* Programs Common Products Page */
+    .programs-container-inner-product-tile {
+        width: 85%;
+        float: none;
+        clear: both;
+        margin: 0px;
+        margin: auto;
+        margin-bottom: 20px;
+        padding: 10px 5px;
+    }
+    .programs-container-inner-product-tile img {
+        height: 50px;
+        width: 50px;
+    }
+    .programs-container-inner-product-tile h4 {
+        font-size: 16px;
+        margin: 2px 0px;
+    }
+    .programs-container-inner-product-tile span {
+        font-size: 12px;
+    }
+    #product-tile-inner-price {
+        font-size: 18px;
+    }
+    .programs-container-inner-product-tile li {
+        text-align: left;
+        font-size: 12px;
+    }
+    .free-product-common-form input {
+        font-size: 10px;
+    }
+    .free-product-common-form button {
+        font-size: 12px;
+    }
+    /* -------- Programs Container Inner Extra Class for CV Writing Product -------- */
+    .cv-container-extra-class {
+        width: 92%;
+        margin: auto;
+    }
+    /* Why Mentord Common Product Page */
+    .why-mentord-tile-container-product-page {
+        padding: 5px 0px 5px 0px;
+        height: auto;
+    }
+    .why-mentord-tile-product-page {
+        float: none;
+        margin: 3% auto;
+        width: 90%;
+        clear: both;
+    }
+    .why-mentord-tile-product-page h2 {
+        font-size: 16px;
+        margin: 0px;
+    }
+    .why-mentord-tile-product-page p {
+        font-size: 12px;
+    }
+    /* FAQ Container Common Product Page  */
+    .product-common-faq-inner {
+        float: none;
+        width: 95%;
+        margin: 2%;
+    }
+    .product-common-faq-inner h5 {
+        font-size: 13px;
+    }
+    .product-common-faq-inner p {
+        font-size: 11px;
+    }
+    /* Contact Us Form Common Product Page */
+    .contact-us-product-common-section {
+        padding: 10px;
+        width: 87%;
+        float: none;
+        height: 68vh;
+        margin-top: 10px;
+    }
+    .contact-us-product-common-section-left-form button {
+        padding: 4px 6px;
+        width: 50%;
+    }
+    .contact-us-product-common-section-left {
+        width: 90%;
+        padding: 0px;
+    }
+    .contact-us-product-common-section-right {
+        display: none;
+    }
+    /* ------- Footer -------- */
+    .footer-links-section{
+        width: 95%;
+        margin: auto;
+        float: none;
+    }
+    .footer-links-section p{
+        font-size: 2.43vh;
+        margin-left: 2vh;
+    }
+    .footer-links-section a{
+        font-size: 3.5vh;
+        margin-left: 2vh;
+    }
+    
+    .footer-form-section{
+        width: 95%;
+        margin: auto;
+        float: none;
+    }
+    .copyright-text{
+        margin: 2vh 0vh;
+        text-align: center;
+    }
+    /* Post Defined CSS must be at the Bottom */
+    .active-in-mobile {
+        width: 100%;
+    }
+    .not-in-mobile {
+        display: none;
+    }
+    .navy-background-hover:hover {
+        background-color: rgb(243, 243, 243);
+    }
+    .canary-background-hover:hover {
+        background-color: rgb(243, 243, 243);
+    }
+    .blue-yonder-background-hover:hover {
+        background-color: rgb(243, 243, 243);
+    }
+    .lavender-background-hover:hover {
+        background-color: rgb(243, 243, 243);
+    }
+    .hwh-point-one {
+        bottom: 0;
+        left: 0;
+    }
+    .hwh-point-two {
+        bottom: 0;
+        right: 0;
+    }
+    .hwh-point-three {
+        top: 0;
+        right: 0;
+    }
+    .margin-top-common-hwh {
+        margin-top: 80px;
+    }
+    .margin-left25-per {
+        margin-left: 0%;
+    }
+    .margin-left50-per {
+        margin-left: 2%;
+    }
+    .margin-bottom-119 {
+        margin-bottom: 0px;
+    }
+    .margin-bottom-101 {
+        margin-bottom: 0px;
+    }
+    .margin-bottom-108 {
+        margin-bottom: 0px;
+    }
+}

@@ -1,0 +1,953 @@
+/* ######## Predefined CSS ( Must be at the top of file) ######## */
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.leftfloat {
+    float: left;
+}
+
+.rightfloat {
+    float: right;
+}
+
+.clearfix {
+    clear: both;
+}
+
+.container{
+    width: 100%;
+}
+
+/* -------- Header -------- */
+
+header{
+    width: 100%;
+    height: 80px;
+    background-color: #02AFA6;
+    position: sticky;
+    top: 0;
+    z-index: 99;
+}
+header img{
+    max-height: 85%;
+    margin: 5px;
+    margin-left: 15%;
+}
+#nav-links-mobile{
+    display: none;
+}
+header nav{
+    width: 55%;
+    float: right;
+    padding: 4.5vh;
+}
+header nav a{
+    color: white;
+    text-decoration: none;
+    margin-right: 7%;
+    cursor: pointer;
+}
+
+/* -------- Free Consultation Button -------- */
+
+.free-consultation{
+    border: none;
+    color: white;
+    background-color: teal;
+    font-size: 2.43vh;
+    padding: 1.52vh 3.04vh;
+    z-index: 32;
+    top: 400%;
+    left: -20vh;
+    -webkit-transform: rotate(90deg);
+    position: absolute;
+    font-family: 'Raleway';
+    font-weight: bold;
+    letter-spacing: 1px;
+    outline: none;
+}
+
+/* -------- Whatsapp Button On Scroll -------- */
+.whatsapp-icon img{
+    position: fixed;
+    bottom: 2vh;
+    left: -26vh;
+    height: 10vh;
+    z-index: 25;
+}
+
+#whts-btn{
+    display: none;
+}
+
+/* -------- Get Expert Advice Form -------- */
+
+.animate {
+    -webkit-animation: animatezoom 0.6s;
+    animation: animatezoom 0.6s;
+}
+
+@-webkit-keyframes animatezoom {
+    from {
+        -webkit-transform: scale(0.5)
+    }
+
+    to {
+        -webkit-transform: scale(1)
+    }
+}
+
+@keyframes animatezoom {
+    from {
+        transform: scale(0)
+    }
+
+    to {
+        transform: scale(1)
+    }
+}
+
+.contact-form-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 200;
+    background-color: rgba(0, 0, 0, 0.4);
+    height: 100%;
+    width: 100%;
+    overflow: none;
+}
+
+#get-expert-advice-form {
+    display: none;
+}
+
+.contact-form {
+    background-color: #fefefe;
+    margin: 2% auto 2% auto;
+    width: 35%;
+    text-align: center;
+    padding: 7vh 3vh;
+    overflow: hidden;
+    border-radius: 4px;
+}
+
+.close-expert-advice-form {
+    position: absolute;
+    right: 4vh;
+    top: 0;
+    color: rgb(197, 197, 197);
+    font-size: 35px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.contact-form img {
+    max-width: 25%;
+}
+
+.contact-form h4 {
+    font-size: 3.65vh;
+    margin: 7.61vh auto 1.21vh;
+    width: 80%;
+}
+
+.contact-form p {
+    font: 2.43vh;
+    margin: 0px auto;
+    width: 80%;
+    font-weight: bold;
+    color: #717171;
+    line-height: 3.65vh;
+}
+
+.contact-form input {
+    font-size: 2.43vh;
+    font-family: inherit;
+    width: 80%;
+    padding: 1.06vh;
+    border: none;
+    border-bottom: 1px solid #04BBB1;
+    margin-top: 3vh;
+    outline: none;
+}
+
+.contact-form button {
+    width: 83%;
+    margin-top: 4.56vh;
+    padding: 2.43vh 0vh;
+    font-size: 2.43vh;
+    color: white;
+    background-color: #04BBB1;
+    border: none;
+    border-radius: 4px;
+    font-family: inherit;
+    outline: none;
+}
+
+/* -------- LSFP Forms -------- */
+
+.login-forms-container{
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 210;
+    background-color: rgba(0, 0, 0, 0.4);
+    height: 100%;
+    width: 100%;
+    overflow: none;
+}
+
+#load-lsfp-form{
+    display: none;
+}
+
+.close-lsfp-form{
+    position: absolute;
+    right: 4vh;
+    top: 0;
+    color: rgb(197, 197, 197);
+    font-size: 35px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.lsfp-form-outer{
+    background-color: #fefefe;
+    margin: 2% auto 2% auto;
+    width: 65%;
+    text-align: center;
+    overflow: hidden;
+    border-radius: 4px;
+}
+
+.lsfp-form-inner-left{
+    width: 35%;
+    float: left;
+    padding: 7vh 1.5vh;
+    background-color: #04bbb1;
+}
+
+.lsfp-form-inner-left img{
+    max-width: 100%;
+    margin: 0;
+}
+
+#mentord-logo-on-form{
+    max-width: 100px;
+    margin: 17.5vh 0vh; 
+}
+
+.lsfp-form-inner-right{
+    width: 60%;
+    float: left;
+    padding: 7vh 1.5vh;
+    color: #04BBB1;
+}
+
+.lsfp-form-inner-right h3{
+    font-size: 4.41vh;
+    letter-spacing: 1px;
+}
+
+.lsfp-form-inner-right form input{
+    width: 60%;
+    margin: 1.5vh 0vh;
+    font-size: 2.5vh;
+    padding: 1vh;
+    border: 1px solid #bbb;
+    border-radius: 4px;
+    font-family: inherit;
+    outline: none;
+}
+
+.lsfp-form-inner-right form button{
+    width: 63%;
+    font-size: 2.5vh;
+    padding: 1vh 0vh;
+    border: none;
+    border-radius: 4px;
+    background-color: #02AFA6;
+    color: white;
+    margin: 2vh 0vh;
+    font-family: inherit;
+    outline: none;
+}
+
+.lsfp-form-inner-right span a{
+    float: right;
+    margin-top: 5vh;
+    cursor: pointer;
+}
+
+.lsfp-form-inner-right a{
+    float: left;
+    color: #04BBB1;
+    text-decoration: none;
+    font: 2.5vh;
+    margin-top: 20vh;
+    cursor: pointer;
+}
+
+#alrment-link{
+    margin-top: 11vh;
+}
+
+#lgfr, #supfr, #fpfr{
+    display: none;
+}
+
+/* $%$%$%$%$% Home Page $%$%$%$%$% */
+
+.header-slider {
+    overflow: hidden;
+    position: relative;
+}
+
+.header-slider figure {
+    position: relative;
+    width: 700%;
+    margin: 0;
+    left: 0;
+    animation: 20s slider infinite;
+    overflow: hidden;
+}
+
+.header-slider figure img {
+    width: 14.28%;
+    height: 86vh;
+    float: left;
+}
+
+@keyframes slider{
+    0% {left: 0;}
+    9.28% {left: 0;}
+    14.29% {left: -100%;}
+    23.57% {left: -100%;}
+    28.57% {left: -200%;}
+    37.85% {left: -200%;}
+    42.85% {left: -300%;}
+    52.13% {left: -300%;}
+    57.13% {left: -400%;}
+    66.41% {left: -400%;}
+    71.41% {left: -500%;}
+    80.69% {left: -500%;}
+    85.69% {left: -600%;}
+    94.97% {left: -600%;}
+    100% {left: -700%;}
+}
+
+.header-slider-text-container{
+    position: absolute;
+    left: 4%;
+    top: 8.5%;
+    width: 43%;
+}
+
+.header-slider-text-container h1{
+    font-size: 5.5vh;
+    letter-spacing: 2px;
+}
+
+/* H1 Cursor */
+
+.txt-type > .txt {
+    border-right: 0.2rem solid #777;
+}
+
+.header-slider-text-container form input[type=text]{
+    font-size: 2.43vh;
+    font-family: inherit;
+    width: 53.5%;
+    padding: 10px 40px;
+    border-radius: 4px 0px 0px 4px;
+    border: 1px solid #bbb;
+    border-right: none;
+    outline: none;
+    background-image: url(Photos/search-icon.png);
+    background-size: 22px;
+    background-position: 10px center;
+    background-repeat: no-repeat;
+    float: left;
+}
+
+.header-slider-text-container button{
+    font-size: 2.45vh;
+    padding: 10px 5px;
+    background-color: white;
+    border: 1px solid #bbb;
+    border-left: none;
+    border-radius: 0px 4px 4px 0px;
+}
+
+.counting-numbers-container{
+    margin-top: 18%;
+    width: 100%;
+}
+.counting-numbers{
+    width: 28%;
+    float: left;
+    text-align: center;
+    color: #003862;
+}
+.counter{
+    font-size: 4vh;
+    margin: 0px;
+    font-weight: bold;
+}
+.counting-numbers h5{
+    margin: 0px;
+}
+.counter::after{
+    content: '+';
+}
+
+.percentage-after::after{
+    content: '%';
+}
+
+/* ######## General Section ######## */
+
+.general-section{
+    margin-top: 7.61vh;
+    text-align: center;
+}
+.general-section h3{
+    font-size: 5.78vh;
+    
+    color: #133A5C;
+}
+
+/* -------- Our Success Story Slider -------- */
+
+.our-success-story-slider-container{
+    width: 70%;
+    height: 48vh;
+    margin: auto;
+    position: relative;
+    overflow: hidden;
+}
+
+.our-success-story-single-slide-container{
+    width: 90%;
+    margin: auto;
+}
+
+.os-image-container{
+    width: 30%;
+    height: 100%;
+    float: left;
+}
+
+.os-image-container img{
+    max-width: 80%;
+    margin: 0;
+    border-radius: 5px;
+}
+
+.os-text-container{
+    width: 65%;
+    margin-left: 4%;
+    float: left;
+}
+
+.os-text-container p{
+    width: 90%;
+    margin: auto;
+    line-height: 4vh;
+    margin-top: 5%;
+}
+
+.os-text-container span{
+    font-size: 2.2vh;
+    float: right;
+    margin-top: 3vh;
+    font-weight: bold;
+}
+
+.os-text-container a{
+    font-size: 2vh;
+    float: left;
+    margin: 2vh 0vh 0vh 2vh;
+    text-decoration: none;
+    color: #133A5C;
+    font-weight: bold;
+}
+
+.os-text-container a:hover{
+    font-size: 2.2vh;
+    text-decoration: underline;
+}
+
+/* Testimonial Slider Dots */
+
+.dot {
+    height: 15px;
+    width: 15px;
+    outline: none;
+    border-radius: 50%;
+    background-color: #bbb;
+    display: inline-block;
+    margin: 5px 2px;
+}
+
+.active {
+    background-color: #717172;
+}
+
+/* Testimonial Slider Arrows */
+.prev,
+.next {
+    position: absolute;
+    bottom: 50%;
+    font-size: 28px;
+    background-color: transparent;
+    border: none;
+    outline: none;
+}
+
+.prev:hover,
+.next:hover {
+    background-color: #04BBB1;
+    color: white;
+    padding: 2px 4px;
+    border-radius: 3px;
+    box-shadow: 0 3px 4px rgba(0, 0, 0, .3);
+}
+
+.prev{
+    left: 0%;
+}
+
+.next{
+    right: 0%;
+}
+
+/* -------- Choose from the best (University Slider) -------- */
+
+.mob-wcu{
+    display: none;
+}
+
+/* -------- Why Choose Us Section -------- */
+
+.our-services-box-container{
+    width: 85%;
+    margin: auto;
+}
+
+.our-services-box{
+    width: 29%;
+    margin: 0vh 2%;
+    float: left;
+    height: 45vh;
+    padding: 3% 0%;
+    position: relative;
+    background: #fff;
+    border: 1px solid rgb(222, 222, 222);
+    box-shadow: 0 3px 4px rgba(0, 0, 0, .3);
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+.our-services-box img{
+    max-height: 50px;
+}
+
+.our-services-box h4{
+    font-size: 3vh;
+    margin-bottom: 2vh;
+}
+
+.our-services-box h6{
+    font-size: 2vh;
+    margin: 0vh;
+}
+
+.our-services-box p{
+    width: 95%;
+    margin: 3vh auto;
+}
+
+.our-services-box button{
+    font-family: inherit;
+    border: 1px solid navy;
+    border-radius: 2px;
+    background: transparent;
+    padding: 1vh 2vh;
+}
+
+.our-services-box button a{
+    text-decoration: none;
+}
+
+/* --------Space Filler Get Free Consultaion Section -------- */
+
+.space-filler-section {
+    margin-top: 50px;
+}
+
+.space-filler-section-left {
+    width: 45%;
+    margin-left: 10%;
+    float: left;
+}
+
+.space-filler-section-left p,
+.space-filler-section-left h3 {
+    color: #666666;
+}
+
+.space-filler-section-left p {
+    font-size: 18px;
+    font-weight: 100;
+}
+
+.space-filler-section-left h3 {
+    font-size: 30px;
+}
+
+.space-filler-section button {
+    margin-top: 20px;
+    background-color: #04BBB1;
+    padding: 20px 25px;
+    line-height: 40px;
+    color: white;
+    border: none;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+    border-radius: 5px;
+    outline: none;
+}
+
+.space-filler-section button i {
+    margin-left: 40px;
+}
+
+/* -------- Virtual Internship -------- */
+
+.virtual-internship-video-box-container{
+    width: 90%;
+    margin: auto;
+}
+
+.virtual-internship-video-box{
+    width: 30%;
+    height: 35vh;
+    margin: 0vh 1.5%;
+    padding: 2vh 0vh;
+    float: left;
+    background: #fff;
+    border: 1px solid rgb(222, 222, 222);
+    box-shadow: 0 3px 4px rgba(0, 0, 0, .3);
+    border-radius: 4px;
+}
+
+.virtual-internship-video-box iframe{
+    width: 90%;
+    height: 28vh;
+    margin: auto;
+}
+
+/* -------- Your Mentors Slider Section -------- */
+
+.your-mentor-slider-container {
+    position: relative;
+    width: 100%;
+}
+
+.mtdYourMentors {
+    display: none;
+}
+
+.mtdYourMentors img {
+    max-width: 100%;
+}
+
+.your-mentor-descp {
+    position: absolute;
+    top: 0;
+    color: white;
+    width: 50%;
+}
+
+.your-mentor-descp-right {
+    position: absolute;
+    top: 0;
+    right: 0px;
+    color: white;
+    width: 50%;
+}
+
+.your-mentor-descp h5,
+.your-mentor-descp-right h5 {
+    font-size: 26px;
+    margin-top: 10%;
+}
+
+.your-mentor-descp p,
+.your-mentor-descp-right p {
+    width: 80%;
+    margin: auto;
+    margin-top: 5%;
+    line-height: 30px;
+    letter-spacing: 1px;
+}
+
+.mentorpoints {
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    background-color: #bbb;
+    display: inline-block;
+}
+
+.ymprev,
+.ymnext {
+    position: absolute;
+    bottom: 45%;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    font-size: 32px;
+    color: white;
+}
+
+.ymprev:hover,
+.ymnext:hover {
+    background-color: rgba(0, 0, 0, .7);
+    color: white;
+    padding: 2px 4px;
+    border-radius: 3px;
+    box-shadow: 0 3px 4px rgba(0, 0, 0, .3);
+}
+
+.ymprev {
+    left: 0px;
+}
+
+.ymnext {
+    right: 0px;
+}
+
+.activement {
+    background-color: #717172;
+}
+
+/* -------- About US Page -------- */
+
+.about-us-roadmap-container{
+    color: white;
+    height: 180vh;
+    background: url('Photos/About\ Us\ Roadmap/Group 45.svg') #02afa6 no-repeat;
+    background-position-x: center;
+    position: relative;
+}
+
+.about-us-description-div p {
+    width: 40%;
+    padding: 2%;
+    position: absolute;
+}
+
+.about-us-page-why-mentord-tile {
+    position: absolute;
+    width: 25%;
+    text-align: left;
+}
+
+.about-us-page-why-mentord-tile img {
+    height: 100px;
+    width: 100px;
+    max-width: 100px;
+    max-height: 100px;
+}
+
+.about-us-page-why-mentord-tile h2 {
+    font-size: 16px;
+    color: #133A5C;
+    text-transform: uppercase;
+}
+
+.about-us-page-why-mentord-tile p {
+    font-size: 14px;
+}
+
+.pos-right-top {
+    right: 2%;
+    top: 5%;
+}
+
+.pos-right-bottom {
+    right: 2%;
+    top: 30%;
+}
+
+.pos-left-bottom {
+    left: 3.5%;
+    top: 22%;
+}
+
+.team-container{
+    width: 90%;
+    margin: auto;
+}
+
+.team-single-member{
+    width: 29%;
+    height: 60vh;
+    margin: 1% 2%;
+    background: linear-gradient(to bottom, #98f3ee 20%, #04BBB1 80%);
+    padding: 4vh 0vh;
+    float: left;
+    color: white;
+    border-radius: 4px;
+}
+
+.team-single-member img{
+    max-height: 125px;
+}
+
+.team-single-member h5{
+    font-size: 3vh;
+    font-weight: 100;
+    margin: 1.5vh 0vh;
+}
+
+.team-single-member h6{
+    margin: 0;
+    font-size: 2vh;
+}
+
+.team-single-member p{
+    width: 95%;
+    margin: 2vh auto;
+}
+
+/* -------- Footer -------- */
+
+footer{
+    width: 100%;
+    background-color: #02AFA6;
+    margin-top: 5vh;
+    padding-top: 5vh;
+    position: absolute;
+    color: white;
+}
+
+.footer-links-section{
+    width: 60%;
+    margin: 20px;
+    float: left;
+}
+
+.footer-links-section h4, .footer-form-section h4{
+    margin: 0px;
+    font-size: 3.65vh;
+    font-weight: 100;
+    text-align: left;
+}
+
+.footer-links-section p{
+    font-size: 2.43vh;
+    margin-left: 3vh;
+}
+
+.footer-links-section a{
+    font-size: 3.5vh;
+    color: #133a5c;
+    text-decoration: none;
+    margin-left: 3vh;
+}
+
+.footer-form-section{
+    width: 25%;
+    margin: 20px;
+    float: left;
+    text-align: center;
+}
+
+.footer-form-section input, .footer-form-section textarea{
+    font-size: 2.43vh;
+    width: 90%;
+    margin-top: 1vh;
+    padding: 1.06vh 0vh;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #133a5c;
+    font-family: inherit;
+    outline: none;
+}
+
+.footer-form-section input::placeholder, .footer-form-section textarea::placeholder{
+    color: white;
+}
+
+.footer-form-section button{
+    font-size: 2.43vh;
+    width: 90%;
+    margin-top: 2vh;
+    padding: 1.06vh 0vh;
+    background-color: #133a5c;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-family: inherit;
+    outline: none;
+}
+
+.copyright-text{
+    font-size: 2vh;
+    margin: 1vh 0vh;
+    text-align: center;
+}
+
+/* ######## Postdefined CSS ( Must be at the end of file) ######## */
+
+.color-white{
+    color: white;
+}
+
+.bg-theme-color{
+    background-color: #02AFA6;
+    color: white;
+    padding: 2.5% 0%;
+}
+
+.orange-gradient::before {
+    content: "";
+    position: absolute;
+    width: 4px;
+    height: 100%;
+    background: linear-gradient(144.31deg, #e4fffc -.2%, rgba(255, 165, 0, .83) 90.11%);
+    left: 0;
+    top: 0;
+}
+
+.pink-gradient::before {
+    content: "";
+    position: absolute;
+    width: 4px;
+    height: 100%;
+    background: linear-gradient(144.31deg, #ffedeb -.2%, #fbb4ab 90.11%);
+    left: 0;
+    top: 0;
+}
+
+.blue-gradient::before {
+    content: "";
+    position: absolute;
+    width: 4px;
+    height: 100%;
+    background: linear-gradient(144.31deg, #e4fffc -.2%, rgba(153, 147, 232, .83) 90.11%);
+    left: 0;
+    top: 0;
+}

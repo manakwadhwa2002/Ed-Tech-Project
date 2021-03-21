@@ -1,0 +1,243 @@
+/* ######## Predefined CSS ( Must be at the top of file) ######## */
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.leftfloat {
+    float: left;
+}
+
+.rightfloat {
+    float: right;
+}
+
+.clearfix {
+    clear: both;
+}
+
+.dashboard-container{
+    width: 100%;
+}
+
+/* -------- Header -------- */
+
+header{
+    height: 5%;
+    width: 100%;
+    background-color: #04BBB1;
+    position: sticky;
+    top: 0;
+    
+}
+
+header img{
+    max-width: 60px;
+    margin: 5px 5px 5px 10vh;
+}
+
+.dash-nav-menu{
+    float: right;
+}
+
+.dash-nav-menu button{
+    color: white;
+    margin: none;
+    cursor: pointer;
+}
+
+.message-btn-dash-nav{
+    font-size: 5vh;
+    padding: 2vh 4vh;
+    border: 1px solid #13837d;
+    background-color: transparent;
+    float: left;
+}
+
+.upgarde-dash-nav{
+    border: none;
+    font-size: 2.4vh;
+    background-color: #0b7973;
+    padding: 3.7vh 6vh;
+}
+
+/* -------- General Sidenav Menu -------- */
+.sidenav {
+    height: 88%;
+    width: 17vw;
+    position: fixed;
+    z-index: 1;
+    top: 10.2%;
+    left: 0;
+    background-color: #07aaa2;
+    overflow-x: hidden;
+    padding-top: 20px;
+    text-align: center;
+    color: white;
+  }
+
+.sidenav::-webkit-scrollbar{
+  width: 4px;
+}
+.sidenav::-webkit-scrollbar-track{
+  background: #03857e;
+}
+.sidenav::-webkit-scrollbar-thumb{
+  background: #003862;
+}
+.sidenav::-webkit-scrollbar-thumb:hover{
+  background: #07aaa2;
+}
+.sidenav img{
+    max-width: 7vw;
+    border-radius: 50%;
+}
+  
+  .sidenav a, .dropdown-btn {
+    padding: 12px 6px 16px 16px;
+    text-decoration: none;
+    font-size: 2.6vh;
+    color: #fff;
+    display: block;
+    border: none;
+    background: none;
+    width: 100%;
+    text-align: left;
+    cursor: pointer;
+    outline: none;
+    font-family: inherit;
+  }
+  
+  .sidenav a:hover, .dropdown-btn:hover {
+    color: white;
+  }
+  
+  .main {
+    margin-left: 200px;
+    font-size: 20px;
+    padding: 0px 10px;
+  }
+  
+  .active {
+    background-color: #03857e;
+    color: white;
+  }
+  
+  .dropdown-container {
+    display: none;
+    background-color: #02afa6;;
+    padding-left: 8px;
+  }
+  
+  .fa-caret-down {
+    float: right;
+    padding-right: 3px;
+  }
+  
+/* -------- Remaining Working Area, the Main Area ------- */
+
+.dashboard-container-main, .my-profile-container-main{
+  width: 77%;
+  height: 50vh;
+  margin: 1.5vh 0vh 1.5vh 18%;
+  padding: 2vh 4vh;
+}
+
+/* -------- My Profile Window -------- */
+
+.my-profile-nav{
+  width: 95.3%;
+  height: 11vh;
+  margin: auto;
+  background-color: teal;
+}
+
+.my-profile-nav button{
+  float: left;
+  border: 1px solid #bbb;
+  text-align: center;
+  padding: 2.6vh 9.85vh;
+  font-size: 2.43vh;
+  background-color: transparent;
+  color: white;
+  outline: none;
+}
+.my-profile-nav button:focus{
+  background-color: white;
+  border-bottom: none;
+  border-top: 3px solid #04BBB1;
+  color: #003862;
+}
+
+.my-profile-nav-button-active{
+  background-color: white;
+  border-bottom: none;
+  border-top: 3px solid #04BBB1;
+  color: #003862;
+}
+.display-my-profile-content-tab{
+  width: 95%;
+  margin: auto;
+  border: 1px solid #bbb;
+  border-top: none;
+  height: 55vh;
+}
+
+/* &&&&&&&& Personal Details - My Profile &&&&&&&& */
+
+#personal-details{
+  display: none;
+}
+
+.pd-left{
+  width: 25%;
+  float: left;
+  text-align: center;
+  padding: 3vh 0vh;
+}
+
+.pd-left img{
+  max-width: 100px;
+  border-radius: 50%; 
+  margin-bottom: 3vh;
+}
+
+.pd-left label{
+  cursor: pointer;
+  border: 1px solid #bbb;
+  border-radius: 5px;
+  padding: 1vh;
+}
+
+.pd-left span{
+  font-size: 2vh;
+  line-height: 6vh;
+}
+
+.pd-right{
+  width: 74.8%;
+  float: left;
+  padding: 3vh 0vh;
+}
+
+.pd-right fieldset{
+  width: 27.5%;
+  margin: 0vh 0.4vw;
+  float: left;
+  border: none;
+}
+
+.pd-right fieldset input{
+  font-family: inherit;
+  font-size: 2.43vh;
+}
+
+#pd-right-email-inp input{
+  border: none;
+}
+  

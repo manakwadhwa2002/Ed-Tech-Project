@@ -1,0 +1,408 @@
+/* Predefined HTML Must be at the Top of CSS */
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0px;
+    font-family: 'Montserrat';
+}
+
+.clearfix {
+    clear: both;
+}
+
+
+/* ######## Common Header (Products and Blogs) ######## */
+
+header {
+    padding: 5px 0px;
+    background-color: #04BBB1;
+    position: sticky;
+    top: 0;
+    z-index: 9999;
+}
+
+header label {
+    display: none;
+}
+
+header label img {
+    max-width: 30px;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+header img {
+    margin: 3px;
+    max-width: 55px;
+    margin-left: 60px;
+}
+
+#mobile-menu-bar {
+    float: right;
+    font-size: 25px;
+    line-height: 20px;
+    margin: 15px;
+    display: none;
+}
+
+.header-menu-container {
+    float: right;
+    margin: 15px;
+}
+
+.dropdown-menu-item {
+    float: left;
+    margin-left: 20px;
+    border-radius: 5px;
+}
+
+.dropdown-menu-item button {
+    padding: 4px 22px;
+    font-weight: bold;
+    font-family: 'Montserrat';
+    font-size: 16px;
+    background-color: transparent;
+    border: none;
+    color: white;
+    outline: none;
+    font-weight: 100;
+}
+
+.dropdown-menu-item button::after {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f107";
+    margin-left: 5px;
+}
+
+.lgn-btn button::after{
+    content: none;
+    margin-left: 0px;
+}
+
+.lgn-btn button::before{
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f501";
+    margin-right: 5px;
+}
+
+.dropdown-menu-content {
+    clear: both;
+    float: none;
+    position: absolute;
+    left: 0px;
+    background-color: rgb(243, 243, 243);
+    width: 100%;
+    display: none;
+    padding: 10px 0px 20px 0px;
+    box-shadow: 0 12px 10px -10px rgba(0, 0, 0, 0.3);
+}
+
+.dropdown-menu-item:hover .dropdown-menu-content {
+    display: block;
+}
+
+.dropdown-career-content-left {
+    float: left;
+    margin-left: 3%;
+    width: 60%;
+}
+
+.dropdown-career-content-left h4,
+.dropdown-career-content-right h4 {
+    color: #404042;
+    font-size: 16px;
+    line-height: 0px;
+}
+
+.dropdown-career-content-left p,
+.dropdown-career-content-right p {
+    font-size: 14px;
+    color: #888888;
+}
+
+.dropdown-menu-content-left-inner-div {
+    width: 30%;
+    float: left;
+    margin-left: 3%;
+    text-align: left;
+}
+
+.dropdown-menu-content-left-inner-div a {
+    font-size: 12px;
+    color: black;
+    text-decoration: none;
+    display: block;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+.dropdown-menu-content-left-inner-div a:hover {
+    color: #1d5c8d;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.dropdown-career-content-right {
+    width: 35%;
+    float: left;
+    margin-left: 2%;
+}
+
+.dropdown-career-content-right a {
+    text-align: center;
+    font-size: 14px;
+    text-decoration: none;
+    color: #1d5c8d;
+}
+
+.blog-card {
+    width: 46%;
+    background-color: #f9f9f9;
+    padding-bottom: 15px;
+    float: left;
+    margin-left: 10px;
+    box-shadow: 0 12px 10px -10px rgba(0, 0, 0, 0.3);
+}
+
+.blog-card img {
+    max-width: 100%;
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+.blog-card:hover {
+    box-shadow: 0 12px 10px -10px rgba(0, 0, 0, 0.7);
+    -webkit-transform: translate(-5px, -10px);
+}
+
+.view-all-link-dropdown-menu a {
+    color: #1d5c8d;
+    font-size: 14px;
+    float: right;
+    text-decoration: none;
+    margin: 20px 20px 0px 0px;
+}
+
+.view-all-link-dropdown-menu a::after {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f105";
+    margin-left: 5px;
+}
+
+.view-all-link-dropdown-menu a:hover {
+    text-decoration: underline;
+}
+
+/* -------- Blog Index Page -------- */
+.blog-indexpg-container{
+    width: 100%;
+}
+
+.blog-indexpg-general-section{
+    width: 90%;
+    margin: auto;
+    margin-top: 5vh;
+}
+
+.blog-indexpg-general-section h3{
+    font-size: 4.41vh;
+    color: #02AFA6;
+    font-weight: 100;
+    letter-spacing: 1px;
+}
+
+.blog-indexpg-general-section a{
+    text-decoration: none;
+    color: #02AFA6;
+    float: right;
+}
+
+.blog-indexpg-general-section a:hover{
+    text-decoration: underline;
+}
+
+/* -------- Footer -------- */
+
+footer{
+    width: 100%;
+    background-color: #04BBB1;
+    margin-top: 5vh;
+    padding-top: 5vh;
+    position: absolute;
+    color: white;
+}
+
+.footer-links-section{
+    width: 60%;
+    margin: 20px;
+    float: left;
+}
+
+.footer-links-section h4, .footer-form-section h4{
+    margin: 0px;
+    font-size: 3.65vh;
+    font-weight: 100;
+    text-align: left;
+}
+
+.footer-links-section p{
+    font-size: 2.43vh;
+    margin-left: 3vh;
+}
+
+.footer-links-section a{
+    font-size: 3.5vh;
+    color: #133a5c;
+    text-decoration: none;
+    margin-left: 3vh;
+}
+
+.footer-form-section{
+    width: 25%;
+    margin: 20px;
+    float: left;
+    text-align: center;
+}
+
+.footer-form-section input, .footer-form-section textarea{
+    font-size: 2.43vh;
+    width: 90%;
+    margin-top: 1vh;
+    padding: 1.06vh 0vh;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #133a5c;
+    font-family: inherit;
+    outline: none;
+}
+
+.footer-form-section input::placeholder, .footer-form-section textarea::placeholder{
+    color: white;
+}
+
+.footer-form-section button{
+    font-size: 2.43vh;
+    width: 90%;
+    margin-top: 2vh;
+    padding: 1.06vh 0vh;
+    background-color: #133a5c;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-family: inherit;
+    outline: none;
+}
+
+.copyright-text{
+    font-size: 2vh;
+    margin: 1vh 0vh;
+    text-align: center;
+}
+
+/* -------- All Carrers Page -------- */
+
+.career-tile {
+    color: black;
+    width: 28%;
+    text-align: center;
+    margin: 30px 0px 30px 60px;
+    background-color: rgba(231, 231, 231, 0.5);
+    float: left;
+}
+
+.career-tile img {
+    width: 100%;
+    max-width: 100%;
+    max-height: 200px;
+}
+
+.career-tile p {
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin: 25px 0px;
+}
+
+
+/* Post Defined CSS must be at the bottom of CSS */
+
+.navy-background-hover:hover {
+    background-color: #003862;
+}
+
+.canary-background-hover:hover {
+    background-color: #9e9d77;
+    color: #003862;
+}
+
+.blue-yonder-background-hover:hover {
+    background-color: #587792;
+}
+
+.lavender-background-hover:hover {
+    background-color: #FF6700;
+}
+
+
+/* Product Lock Color */
+
+.color-white {
+    color: white;
+    font-size: 22px;
+    margin-top: 15px;
+}
+
+.unlock-green {
+    color: rgb(0, 255, 0);
+}
+
+.lock-gray {
+    color: gray;
+}
+
+.text-align-right {
+    float: right;
+}
+
+.margin-bottom-20 {
+    margin-top: 43px;
+}
+
+.margin-bottom-30 {
+    margin-top: 25px;
+    margin-bottom: 15px;
+}
+
+.margin-bottom-70 {
+    margin-bottom: 155px;
+}
+
+.padding-bottom-20 {
+    padding-bottom: 35px;
+}
+
+.margin-left25-per {
+    margin-left: 25%;
+}
+
+.margin-left50-per {
+    margin-left: 39%;
+}
+
+.margin-bottom-119 {
+    margin-bottom: 119px;
+}
+
+.margin-bottom-101 {
+    margin-bottom: 101px;
+}
+
+.margin-bottom-108 {
+    margin-bottom: 108px;
+}

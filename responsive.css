@@ -1,0 +1,445 @@
+@media only screen and (max-width: 767px){
+    /* -------- Header -------- */
+
+    header{
+        height: 60px;
+    }
+    header img{
+        max-height: 80%;
+        margin: 5px;
+        margin-left: 15%;
+    }
+    #nav-links{
+        display: none;
+    }
+    #nav-links-mobile{
+        display: block;
+    }
+    header nav{
+        width: 100%;
+        float: none;
+        clear: both;
+        margin-top: -1.7px;
+        padding: 0vh;
+        background-color: #02afa6;
+        text-align: center;
+    }
+    header nav a{
+        display: block;
+        margin-right: 0px;
+        padding: 0.75vh 0vh;
+        border-bottom: 1px solid #05c5bb;
+    }
+    /* -------- Free Consultation Button -------- */
+    #fc-btn{
+        display: none;
+    }
+    .mobile-header-nav{
+        width: 60%;
+        float: right;
+        padding-top: 2.5vh;
+    }
+    .mobile-header-nav label{
+        font-size: 22px;
+        float: right;
+        margin-right: 10%;
+    }
+    .mobile-header-nav label img{
+        max-height: 28px;
+          margin: 0px;
+    }
+    /* -------- Get Expert Advice Form -------- */
+    .contact-form {
+        margin: 14% auto 2% auto;
+        width: 90%;
+        padding: 7vh 1vh;
+    }
+    .close-expert-advice-form {
+        right: 2vh;
+        top: 1vh;
+        color: rgb(190, 190, 190);
+        font-size: 5.32vh;
+    }
+    .contact-form img {
+        max-width:35%;
+    }
+    .contact-form h4 {
+        font-size: 2.89vh;
+        margin: 2.89vh auto 1.21vh;
+        width: 90%;
+    }
+    .contact-form p {
+        font: 2.43vh;
+        margin: 0px auto;
+        width: 92%;
+    }
+    .contact-form input {
+        font-size: 2vh;
+        width: 90%;
+        margin-top: 3vh;
+    }
+    .contact-form button {
+        width: 93%;
+        margin-top: 4.56vh;
+        padding: 1.5vh 0vh;
+        font-size: 2vh;
+    }
+    /* -------- LSFP Forms -------- */
+    .close-lsfp-form{
+        right: 2vh;
+        font-size: 25px;
+    }
+
+    .lsfp-form-outer{
+        margin: 6% auto 2% auto;
+        width: 95%;
+        overflow: hidden;
+    }
+
+    .lsfp-form-inner-left{
+        width: 100%;
+        float: none;
+        padding: 2vh 0vh;
+    }
+
+    .lsfp-form-inner-left img{
+        max-width: 49%;
+        margin-left: 2vw;
+    }
+
+    #mentord-logo-on-form{
+        max-width: 75px;
+        margin: 2vh 0vh; 
+    }
+
+    .lsfp-form-inner-right{
+        width: 100%;
+        float: none;
+        padding: 5vh 0vh;
+    }
+
+    .lsfp-form-inner-right form input{
+        width: 80%;
+    }
+
+    .lsfp-form-inner-right form button{
+        width: 85%;
+    }
+
+    .lsfp-form-inner-right span a{
+        float: none;
+    }
+    .lsfp-form-inner-right span a::before{
+        content: "\a";
+        white-space: pre;
+    }
+    .lsfp-form-inner-right span a::after{
+        content: "\a\a";
+        white-space: pre;
+    }
+
+    .lsfp-form-inner-right a{
+        float: none;
+    }
+    /* $%$%$%$%$% Home Page $%$%$%$%$% */
+
+    .header-slider figure img{
+        height: 30vh;
+    }
+
+    .header-slider-text-container{
+        top: 8%;
+        left: 2.5%;
+        width: 50%;
+    }
+
+    .header-slider-text-container h1{
+        font-size: 1.5vh;
+        letter-spacing: 1px;
+    }
+
+    .header-slider-text-container h4{
+        font-size: 1.1vh;
+    }
+    .header-slider-text-container form input[type=text]{
+        font-size: 1.43vh;
+        width: 52.5%;
+        padding: 10px 15px;
+        background-size: 1.43vh;
+        background-position: 5px center;
+    }
+    .header-slider-text-container button{
+        font-size: 1.45vh;
+        padding: 10px 4px;
+    }
+    .counting-numbers-container{
+        margin-top: 10%;
+    }
+    .counter{
+        font-size: 2vh;
+        font-weight: bold;
+    }
+    .counting-numbers{
+        width: 25%;
+    }
+    .counting-numbers h5{
+        font-size: 1vh;
+        margin: 0px;
+    }
+    /* ######## General CSS for General Section Tag ######## */
+    .general-section{
+        margin-top: 5vh;
+        text-align: center;
+    }
+    .general-section h3{
+        margin-top: 0px;
+        margin-bottom: 3vh;
+        font-size: 3.5vh;
+    }
+    /* -------- Our Success Story Slider -------- */
+
+    .our-success-story-slider-container{
+        width: 100%;
+        height: 68vh;
+    }
+
+    .our-success-story-single-slide-container{
+        width: 90%;
+        margin: auto;
+    }
+
+    .os-image-container{
+        width: 100%;
+        height: 100%;
+        float: none;
+    }
+
+    .os-image-container img{
+        max-width: 50%;
+    }
+
+    .os-text-container{
+        width: 100%;
+        margin-left: 0%;
+        float: none;
+    }
+
+    .os-text-container p{
+        width: 100%;
+        margin: auto;
+        line-height: auto;
+        margin-top: 2%;
+    }
+
+    .os-text-container span{
+        font-size: 1.7vh;
+        margin-top: 1vh;
+    }
+
+    .os-text-container a{
+        font-size: 1.5vh;
+        margin: 2vh 0vh 0vh 2vh;
+        text-decoration: none;
+    }
+
+    .os-text-container a:hover{
+        font-size: 1.7vh;
+    }
+
+    /* Testimonial Slider Arrows */
+    .prev,
+    .next {
+    display: none;
+    }
+
+    /* -------- Choose from the best (University Slider) -------- */
+
+    .mob-wcu{
+        display: block;
+    }
+
+    .web-wcu{
+        display: none;
+    }
+    /* -------- Why Choose Us Section -------- */
+
+    .our-services-box-container{
+        width: 100%;
+        margin: auto;
+    }
+
+    .our-services-box{
+        width: 95%;
+        margin: 2vh auto;
+        float: none;
+    }
+
+    /* -------- Space Filler -------- */
+    .space-filler-section {
+        margin-top: 20px;
+    }
+    .space-filler-section-left {
+        width: 100%;
+        margin-left: 0%;
+    }
+    .space-filler-section-left p {
+        font-size: 16px;
+        font-weight: bold;
+        text-align: center;
+    }
+    .space-filler-section-left h3 {
+        display: none;
+    }
+    .space-filler-section button {
+        margin-top: 10px;
+        width: 100%;
+        margin: auto;
+        padding: 10px;
+        line-height: 40px;
+        font-size: 12px;
+    }
+    .space-filler-section button i {
+        margin-left: 10px;
+    }
+
+    /* -------- Virtual Internship -------- */
+
+    .virtual-internship-video-box-container{
+        width: 100%;
+    }
+
+    .virtual-internship-video-box{
+        width: 95%;
+        height: 35vh;
+        margin: 2vh 0vh 2vh 1.5vh;
+        float: none;
+    }
+
+    .virtual-internship-video-box iframe{
+        width: 95%;
+    }
+
+    /* -------- Your Mentors Section -------- */
+    .your-mentor-descp h5,
+    .your-mentor-descp-right h5 {
+        font-size: 12px;
+        margin: 1px;
+        margin-top: 10px;
+        font-weight: 100;
+    }
+    .your-mentor-descp p,
+    .your-mentor-descp-right p {
+        margin-top: 5%;
+        font-size: 8px;
+        line-height: normal;
+        letter-spacing: normal;
+    }
+    .mentorpoints {
+        height: 15px;
+        width: 15px;
+        border-radius: 50%;
+        background-color: #bbb;
+        display: inline-block;
+    }
+    .ymprev,
+    .ymnext {
+        position: absolute;
+        bottom: 55%;
+        background-color: transparent;
+        border: none;
+        outline: none;
+        font-size: 12px;
+        color: white;
+    }
+    .ymprev {
+        left: 0px;
+    }
+    .ymnext {
+        right: 0px;
+    }
+    .activement {
+        background-color: #717172;
+    }
+
+    /* -------- About Us Page -------- */
+
+    .about-us-roadmap-container{
+        width: 100%;
+        height: 80vh;
+        background: url('Photos/About\ Us\ Roadmap/Group 45.svg') #02afa6 no-repeat;
+        background-position-x: center;
+        background-size: 100%;
+        position: relative;
+    }
+
+    .about-us-description-div{
+        color: black;
+        display: none;
+    }
+    .about-us-page-why-mentord-tile{
+        display: none;
+    }
+
+    .team-container{
+        width: 100%;
+        margin: auto;
+    }
+    
+    .team-single-member{
+        width: 95%;
+        height: 55vh;
+        margin: 4% auto;
+        float: none;
+    }
+    
+    .team-single-member img{
+        max-height: 100px;
+    }
+    
+    .team-single-member p{
+        width: 95%;
+    }
+
+    /* ------- Footer -------- */
+    .footer-links-section{
+        width: 95%;
+        margin: auto;
+        float: none;
+    }
+    .footer-links-section p{
+        font-size: 2.43vh;
+        margin-left: 2vh;
+    }
+    .footer-links-section a{
+        font-size: 3.5vh;
+        margin-left: 2vh;
+    }
+    
+    .footer-form-section{
+        width: 95%;
+        margin: auto;
+        float: none;
+    }
+    .copyright-text{
+        margin: 2vh 0vh;
+        text-align: center;
+    }
+
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px){
+    header img{
+        max-height: 80%;
+        margin: 5px;
+        margin-left: 10%;
+    }
+    header nav{
+        width: 67%;
+        float: right;
+        padding: 0vh;
+        margin-top: 2.5vh;
+    }
+    header nav a{
+        margin-right: 3%;
+    }
+}

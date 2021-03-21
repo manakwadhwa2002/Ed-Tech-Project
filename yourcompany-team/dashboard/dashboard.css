@@ -1,0 +1,641 @@
+/* Pre Defined Tags */
+
+body {
+    margin: 0;
+    font-family: 'Montserrat';
+}
+
+.leftfloat {
+    float: left;
+}
+
+.rightfloat {
+    float: right;
+}
+
+.clearfix {
+    clear: both;
+}
+
+/* Sidenav Menu */
+
+  .sidenav {
+    height: 97%;
+    width: 235px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #04BBB1;
+    color: white;
+    overflow-x: hidden;
+    padding-top: 20px;
+  }
+
+  .sidenav a, .dropdown-btn {
+    font-family: 'Montserrat';
+    padding: 6px 8px 12px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    display: block;
+    border: none;
+    background: none;
+    width: 100%;
+    text-align: left;
+    cursor: pointer;
+    outline: none;
+  }
+  
+  .sidenav a:hover, .dropdown-btn:hover {
+    color: #f1f1f1;
+  }
+
+  .sidenav::-webkit-scrollbar{
+    width: 4px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: #07706b; 
+  } 
+  
+  ::-webkit-scrollbar-thumb {
+    background: transparent;
+  } 
+
+  .profile-user{
+    padding-left: 15px;
+    margin-bottom: 20px;
+  }
+  .fa-user{
+      font-size: 28px;
+      border: 1px solid white;
+      border-radius: 100%;
+      padding: 20px;
+  }
+
+  .profile-user span{
+      margin-left: 5px;
+  }
+  
+  .active {
+    background-color: #03a79e;
+    color: white;
+  }
+  
+  .dropdown-container {
+    display: none;
+    background-color: #04BBB1;
+    padding-left: 6px;
+  }
+  .dropdown-container a{
+    border-bottom: 1px solid #03a79e;
+    font-size: 14px;
+  }
+  
+  .fa-caret-right {
+    padding-left: 5px;
+    padding-top: 3.5px;
+  }
+
+  .main {
+    margin-left: 10%; 
+    font-size: 20px; 
+  }
+
+  .dashboard table{
+      text-align: center;
+      margin: 20% 0% 0% 22%;
+      border-collapse: collapse;
+  }
+  .dashboard table td{
+      border: 1px solid #04BBB1;
+      padding: 10px 20px;
+  }
+
+  .post-blog, .manage-blogs, .display-manage-blog-output, .manage-topics, .manage-team, .manage-careers{
+      margin-left: 20%;
+  }
+
+  .post-blog input[type=text], .post-blog input[type=url]{
+      margin: 2% 0% 0% 2%;
+      font-size: 18px;
+      padding: 5px;
+      width: 80%;
+      font-family: 'Montserrat';
+      outline: none;
+  }
+  .post-blog img{
+    max-width: 50%;
+    max-height: 50%;
+  }
+
+  .post-blog fieldset{
+      width: 78%;
+      margin: 1% 0% 0% 2%;
+  }
+
+  .post-blog fieldset input{
+      font-size: 16px;
+  }
+
+  .text-editor-outer-class{
+      margin: 1% 0% 0% 2%;
+      width: 81%;
+  }
+  
+  .post-blog select{
+    width: 39.5%;
+    margin: 1% 0% 0% 2%;
+    font-size: 18px;
+    padding: 10px 0px;
+    outline: none;
+    font-family: 'Montserrat';
+  }
+  .post-blog input[type=checkbox]{
+    margin: 2% 0% 0% 2%;
+  }
+
+  .post-blog button{
+      float: right;
+      margin: 2% 17% 0% 0%;
+      padding: 6px 24px;
+      border-radius: 4px;
+      border: none;
+      background-color: #04BBB1;
+      color: white;
+      font-size: 20px;
+      font-family: 'Montserrat';
+  }
+
+  .manage-blogs fieldset{
+    width: 78%;
+    margin: 1% 0% 0% 2%;
+    border: none;
+  }
+
+  .manage-blogs input, .manage-blogs select, .manage-blogs button{
+    font-size: 16px;
+    font-family: 'Montserrat';
+    padding: 10px 0px;
+    outline: none;
+    margin-left: 2%;
+  }
+  .manage-blogs input{
+    width: 40%;
+  }
+  .manage-blogs select{
+    width: 20%;
+  }
+  .manage-blogs button{
+      padding: 10px;
+      background-color: #04BBB1;
+      color: white;
+      border: none;
+  }
+
+  .display-manage-blog-output{
+      margin-top: 2%;
+      width: 73%;
+      padding: 5px;
+  }
+  .display-manage-blog-output table{
+    border-collapse: collapse;
+  }
+  .display-manage-blog-output th, td{
+    padding: 5px 10px;
+    border: 1px solid black;
+  }
+  .display-manage-blog-output a{
+    color: white;
+    padding: 2px 10px;
+  }
+
+  .manage-careers-left{
+      width: 40%;
+      float: left;
+  }
+
+  .manage-careers-left fieldset{
+    width: 90%;
+  }
+
+  .manage-careers-left input{
+    width: 90%;
+    padding: 5px 0px;
+    font-size: 18px;
+    font-family: 'Montserrat';
+    outline: none;
+  }
+
+  .manage-careers-left input[type=text]{
+    margin: 2% auto;
+    width: 97%;
+  }
+  .manage-careers-left input[type=checkbox]{
+    margin: 2% 1%;
+    width: 7%;
+  }
+
+  .manage-careers-left button{
+    margin-top: 10px;
+    padding: 5px 20px;
+    font-size: 18px;
+    font-family: 'Montserrat';
+    background-color: #04BBB1;
+    color: white;
+    border-radius: 4px;
+    outline: none;
+    border: none;
+    float: right;
+    cursor: pointer;
+  }
+
+  .manage-careers-right{
+    width: 45%;
+    float: left;
+    margin-left: 10%;
+  }
+
+  .manage-careers-right table{
+      border-collapse: collapse;
+  }
+
+  .manage-careers-right td a{
+    color: white;
+    padding: 5px 10px;
+  }
+  .manage-careers-right th, .manage-careers-right td{
+      width: 20%;
+      text-align: center;
+      border: 1px solid #003862;
+      padding: 10px;
+  }
+
+  .add-team-member{
+      float: left;
+  }
+
+  .add-team-member input, .add-team-member select, .add-team-member button{
+      width: 60%;
+      font-size: 18px;
+      font-family: 'Montserrat';
+      margin: 1% 0% 0% 4%;
+      padding: 10px;
+      outline: none;
+  }
+  .add-team-member select{
+      width: 65%;
+  }
+  .add-team-member button{
+      background-color: #04BBB1;
+      color: white;
+      width: 65%;
+      border: none;
+  }
+
+  .manage-team-right{
+      float: left;
+      margin-top: 8%;
+  }
+
+  .manage-team-right table{
+      border-collapse: collapse;
+  }
+
+  .manage-team-right table button{
+    padding: 5px 10px;
+    color: white;
+    border: none;
+    outline: none;
+}
+
+  .manage-team-right th, .manage-team-right td{
+    border: 1px solid #003862;
+    text-align: center;
+    padding: 10px;
+  }
+
+/* ######## Common Header (Products and Blogs) ######## */
+
+header {
+  padding: 5px 0px;
+  background-color: #04BBB1;
+  position: sticky;
+  top: 0;
+  z-index: 9999;
+}
+
+header label {
+  display: none;
+}
+
+header label img {
+  max-width: 30px;
+  margin-top: 10px;
+  margin-right: 10px;
+}
+
+header img {
+  margin: 3px;
+  max-width: 55px;
+  margin-left: 60px;
+}
+
+#mobile-menu-bar {
+  float: right;
+  font-size: 25px;
+  line-height: 20px;
+  margin: 15px;
+  display: none;
+}
+
+.header-menu-container {
+  float: right;
+  margin: 15px;
+}
+
+.dropdown-menu-item {
+  float: left;
+  margin-left: 20px;
+  border-radius: 5px;
+}
+
+.dropdown-menu-item button {
+  padding: 4px 22px;
+  font-weight: bold;
+  font-family: 'Montserrat';
+  font-size: 16px;
+  background-color: transparent;
+  border: none;
+  color: white;
+  outline: none;
+  font-weight: 100;
+}
+
+.dropdown-menu-item button::after {
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  content: "\f107";
+  margin-left: 5px;
+}
+
+.dropdown-menu-content {
+  clear: both;
+  float: none;
+  position: absolute;
+  left: 0px;
+  background-color: rgb(243, 243, 243);
+  width: 100%;
+  display: none;
+  padding: 10px 0px 20px 0px;
+  box-shadow: 0 12px 10px -10px rgba(0, 0, 0, 0.3);
+}
+
+.dropdown-menu-item:hover .dropdown-menu-content {
+  display: block;
+}
+
+.dropdown-career-content-left {
+  float: left;
+  margin-left: 3%;
+  width: 60%;
+}
+
+.dropdown-career-content-left h4,
+.dropdown-career-content-right h4 {
+  color: #404042;
+  font-size: 16px;
+  line-height: 0px;
+}
+
+.dropdown-career-content-left p,
+.dropdown-career-content-right p {
+  font-size: 14px;
+  color: #888888;
+}
+
+.dropdown-menu-content-left-inner-div {
+  width: 30%;
+  float: left;
+  margin-left: 3%;
+  text-align: left;
+}
+
+.dropdown-menu-content-left-inner-div a {
+  font-size: 12px;
+  color: black;
+  text-decoration: none;
+  display: block;
+  margin-bottom: 10px;
+  width: 100%;
+}
+
+.dropdown-menu-content-left-inner-div a:hover {
+  color: #1d5c8d;
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+.dropdown-career-content-right {
+  width: 35%;
+  float: left;
+  margin-left: 2%;
+}
+
+.dropdown-career-content-right a {
+  text-align: center;
+  font-size: 14px;
+  text-decoration: none;
+  color: #1d5c8d;
+}
+
+.blog-card {
+  width: 46%;
+  background-color: #f9f9f9;
+  padding-bottom: 15px;
+  float: left;
+  margin-left: 10px;
+  box-shadow: 0 12px 10px -10px rgba(0, 0, 0, 0.3);
+}
+
+.blog-card img {
+  max-width: 100%;
+  margin: 0;
+  margin-bottom: 10px;
+}
+
+.blog-card:hover {
+  box-shadow: 0 12px 10px -10px rgba(0, 0, 0, 0.7);
+  -webkit-transform: translate(-5px, -10px);
+}
+
+.view-all-link-dropdown-menu a {
+  color: #1d5c8d;
+  font-size: 14px;
+  float: right;
+  text-decoration: none;
+  margin: 20px 20px 0px 0px;
+}
+
+.view-all-link-dropdown-menu a::after {
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  content: "\f105";
+  margin-left: 5px;
+}
+
+.view-all-link-dropdown-menu a:hover {
+  text-decoration: underline;
+}
+
+/* ######## Common Footer (Products and Blogs) ######## */
+
+footer{
+  width: 100%;
+  background-color: #04BBB1;
+  margin-top: 5vh;
+  padding-top: 5vh;
+  position: absolute;
+  color: white;
+}
+
+.footer-links-section{
+  width: 60%;
+  margin: 20px;
+  float: left;
+}
+
+.footer-links-section h4, .footer-form-section h4{
+  margin: 0px;
+  font-size: 3.65vh;
+  font-weight: 100;
+  text-align: left;
+}
+
+.footer-links-section p{
+  font-size: 2.43vh;
+  margin-left: 3vh;
+}
+
+.footer-links-section a{
+  font-size: 3.5vh;
+  color: #133a5c;
+  text-decoration: none;
+  margin-left: 3vh;
+}
+
+.footer-form-section{
+  width: 25%;
+  margin: 20px;
+  float: left;
+  text-align: center;
+}
+
+.footer-form-section input, .footer-form-section textarea{
+  font-size: 2.43vh;
+  width: 90%;
+  margin-top: 1vh;
+  padding: 1.06vh 0vh;
+  background-color: transparent;
+  border: none;
+  border-bottom: 1px solid #133a5c;
+  font-family: inherit;
+  outline: none;
+}
+
+.footer-form-section input::placeholder, .footer-form-section textarea::placeholder{
+  color: white;
+}
+
+.footer-form-section button{
+  font-size: 2.43vh;
+  width: 90%;
+  margin-top: 2vh;
+  padding: 1.06vh 0vh;
+  background-color: #133a5c;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-family: inherit;
+  outline: none;
+}
+
+.copyright-text{
+  font-size: 2vh;
+  margin: 1vh 0vh;
+  text-align: center;
+}
+
+/* Post Defined CSS must be at the bottom of CSS */
+
+.navy-background-hover:hover {
+  background-color: #003862;
+}
+
+.canary-background-hover:hover {
+  background-color: #9e9d77;
+  color: #003862;
+}
+
+.blue-yonder-background-hover:hover {
+  background-color: #587792;
+}
+
+.lavender-background-hover:hover {
+  background-color: #FF6700;
+}
+
+/* -------- Career Blogs -------- */
+
+.career-blog-container{
+  width: 100%;
+  margin: 2% auto;
+}
+
+.carrer-blog-menu{
+  width: 21%;
+  border: 1px solid black;
+  float: left;
+  margin: auto 2%;
+}
+
+.carrer-blog-body-container{
+  width: 53%;
+  border: 1px solid red;
+  float: left;
+}
+
+.carrer-blog-ad{
+  width: 18%;
+  float: left;
+  border: 1px solid #003862;
+  margin: auto 1.5%;
+}
+
+/* -------- General Blogs -------- */
+
+
+
+  /* Some media queries for responsiveness */
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
+  
+
+/* Post Defined CSS Must be placed at the end of the page */
+
+.bg-blue{
+    background-color: #02AFA6;
+}
+.bg-green{
+    background-color: green;
+}
+.bg-red{
+    background-color: red;
+}
+.blog-preview a{
+  color: #003862;
+  font-weight: bold;
+}

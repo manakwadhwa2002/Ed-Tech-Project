@@ -1,0 +1,125 @@
+@media only screen and (max-width: 876px) {
+    header label {
+        display: block;
+        float: right;
+    }
+    #mobile-menu-bar {
+        display: block;
+    }
+    .header-menu-container {
+        float: none;
+        clear: both;
+        display: none;
+        margin: 0px;
+        padding: 0px;
+        position: absolute;
+        width: 100%;
+        text-align: center;
+    }
+    .dropdown-menu-item {
+        margin: 0px;
+        width: 100%;
+        background-color: #f1f1f1;
+    }
+    .dropdown-menu-item button {
+        padding: 10px 0px;
+        font-size: 16px;
+        color: black;
+        float: none;
+        display: block;
+        width: 100%;
+        background-color: transparent;
+        border-radius: 0px;
+    }
+    .dropdown-menu-content {
+        position: relative;
+        margin: 0px;
+        box-shadow: none;
+    }
+    .dropdown-career-content-left {
+        float: none;
+        margin-left: 0%;
+        width: 97%;
+        margin: auto;
+    }
+    .dropdown-career-content-right {
+        display: none;
+    }
+    .view-all-link-dropdown-menu a {
+        font-size: 12px;
+    }
+    /* -------- Blog Index Page -------- */
+    /* ------- Footer -------- */
+    .footer-links-section{
+        width: 95%;
+        margin: auto;
+        float: none;
+    }
+    .footer-links-section p{
+        font-size: 2.43vh;
+        margin-left: 2vh;
+    }
+    .footer-links-section a{
+        font-size: 3.5vh;
+        margin-left: 2vh;
+    }
+    
+    .footer-form-section{
+        width: 95%;
+        margin: auto;
+        float: none;
+    }
+    .copyright-text{
+        margin: 2vh 0vh;
+        text-align: center;
+    }
+    /* Post Defined CSS must be at the Bottom */
+    .active-in-mobile {
+        width: 100%;
+    }
+    .not-in-mobile {
+        display: none;
+    }
+    .navy-background-hover:hover {
+        background-color: rgb(243, 243, 243);
+    }
+    .canary-background-hover:hover {
+        background-color: rgb(243, 243, 243);
+    }
+    .blue-yonder-background-hover:hover {
+        background-color: rgb(243, 243, 243);
+    }
+    .lavender-background-hover:hover {
+        background-color: rgb(243, 243, 243);
+    }
+    .hwh-point-one {
+        bottom: 0;
+        left: 0;
+    }
+    .hwh-point-two {
+        bottom: 0;
+        right: 0;
+    }
+    .hwh-point-three {
+        top: 0;
+        right: 0;
+    }
+    .margin-top-common-hwh {
+        margin-top: 80px;
+    }
+    .margin-left25-per {
+        margin-left: 0%;
+    }
+    .margin-left50-per {
+        margin-left: 2%;
+    }
+    .margin-bottom-119 {
+        margin-bottom: 0px;
+    }
+    .margin-bottom-101 {
+        margin-bottom: 0px;
+    }
+    .margin-bottom-108 {
+        margin-bottom: 0px;
+    }
+}
